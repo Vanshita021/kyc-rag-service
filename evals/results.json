@@ -1,0 +1,467 @@
+{
+  "hit_at_k": 0.9333333333333333,
+  "hit_at_1": 0.7666666666666667,
+  "k": 4,
+  "n": 30,
+  "rows": [
+    {
+      "id": 1,
+      "type": "direct",
+      "question": "What documents are accepted for KYC of an individual?",
+      "expected": [
+        24,
+        25,
+        8
+      ],
+      "retrieved": [
+        24,
+        8,
+        25,
+        37
+      ],
+      "rank": 1
+    },
+    {
+      "id": 2,
+      "type": "direct",
+      "question": "What is Customer Due Diligence (CDD)?",
+      "expected": [
+        11
+      ],
+      "retrieved": [
+        11,
+        1,
+        1,
+        11
+      ],
+      "rank": 1
+    },
+    {
+      "id": 3,
+      "type": "direct",
+      "question": "Who is a Politically Exposed Person (PEP)?",
+      "expected": [
+        46
+      ],
+      "retrieved": [
+        46,
+        46,
+        56,
+        3
+      ],
+      "rank": 1
+    },
+    {
+      "id": 4,
+      "type": "direct",
+      "question": "What is the Video based Customer Identification Process (V-CIP)?",
+      "expected": [
+        13
+      ],
+      "retrieved": [
+        28,
+        28,
+        31,
+        29
+      ],
+      "rank": null
+    },
+    {
+      "id": 5,
+      "type": "direct",
+      "question": "How often should KYC be updated for high, medium and low risk customers?",
+      "expected": [
+        39
+      ],
+      "retrieved": [
+        39,
+        39,
+        40,
+        42
+      ],
+      "rank": 1
+    },
+    {
+      "id": 6,
+      "type": "direct",
+      "question": "When is a person a beneficial owner of a company? What is the ownership threshold?",
+      "expected": [
+        5
+      ],
+      "retrieved": [
+        5,
+        6,
+        5,
+        11
+      ],
+      "rank": 1
+    },
+    {
+      "id": 7,
+      "type": "direct",
+      "question": "For how long must transaction records be preserved?",
+      "expected": [
+        49
+      ],
+      "retrieved": [
+        49,
+        49,
+        89,
+        49
+      ],
+      "rank": 1
+    },
+    {
+      "id": 8,
+      "type": "direct",
+      "question": "What is a Principal Officer?",
+      "expected": [
+        9
+      ],
+      "retrieved": [
+        17,
+        9,
+        32,
+        7
+      ],
+      "rank": 2
+    },
+    {
+      "id": 9,
+      "type": "direct",
+      "question": "Within how many days must KYC records be uploaded to CKYCR?",
+      "expected": [
+        58
+      ],
+      "retrieved": [
+        58,
+        58,
+        58,
+        59
+      ],
+      "rank": 1
+    },
+    {
+      "id": 10,
+      "type": "direct",
+      "question": "What are the limits on a small account?",
+      "expected": [
+        32
+      ],
+      "retrieved": [
+        32,
+        33,
+        34,
+        10
+      ],
+      "rank": 1
+    },
+    {
+      "id": 11,
+      "type": "direct",
+      "question": "How long can a small account stay operational?",
+      "expected": [
+        33
+      ],
+      "retrieved": [
+        33,
+        33,
+        32,
+        34
+      ],
+      "rank": 1
+    },
+    {
+      "id": 12,
+      "type": "direct",
+      "question": "What is the Digital KYC process?",
+      "expected": [
+        71
+      ],
+      "retrieved": [
+        71,
+        27,
+        72,
+        72
+      ],
+      "rank": 1
+    },
+    {
+      "id": 13,
+      "type": "direct",
+      "question": "What information is needed for domestic wire transfers below fifty thousand rupees?",
+      "expected": [
+        64
+      ],
+      "retrieved": [
+        63,
+        63,
+        64,
+        14
+      ],
+      "rank": 3
+    },
+    {
+      "id": 14,
+      "type": "direct",
+      "question": "How should customers be categorised by risk?",
+      "expected": [
+        21
+      ],
+      "retrieved": [
+        21,
+        21,
+        16,
+        1
+      ],
+      "rank": 1
+    },
+    {
+      "id": 15,
+      "type": "direct",
+      "question": "What documents are needed to open an account for a trust?",
+      "expected": [
+        36,
+        37
+      ],
+      "retrieved": [
+        37,
+        37,
+        36,
+        36
+      ],
+      "rank": 1
+    },
+    {
+      "id": 16,
+      "type": "direct",
+      "question": "What documents are needed for an unincorporated association or body of individuals?",
+      "expected": [
+        37
+      ],
+      "retrieved": [
+        37,
+        37,
+        37,
+        35
+      ],
+      "rank": 1
+    },
+    {
+      "id": 17,
+      "type": "direct",
+      "question": "What are the conditions for accounts opened using Aadhaar OTP based e-KYC in non-face-to-face mode?",
+      "expected": [
+        26,
+        27
+      ],
+      "retrieved": [
+        26,
+        27,
+        26,
+        27
+      ],
+      "rank": 1
+    },
+    {
+      "id": 18,
+      "type": "direct",
+      "question": "What happens if OTP based e-KYC account is not fully verified within one year?",
+      "expected": [
+        27
+      ],
+      "retrieved": [
+        27,
+        27,
+        41,
+        26
+      ],
+      "rank": 1
+    },
+    {
+      "id": 19,
+      "type": "direct",
+      "question": "What should a Customer Acceptance Policy ensure?",
+      "expected": [
+        19
+      ],
+      "retrieved": [
+        1,
+        19,
+        20,
+        65
+      ],
+      "rank": 2
+    },
+    {
+      "id": 20,
+      "type": "direct",
+      "question": "Should the Customer Acceptance Policy deny banking services to disadvantaged people?",
+      "expected": [
+        20
+      ],
+      "retrieved": [
+        1,
+        20,
+        19,
+        46
+      ],
+      "rank": 2
+    },
+    {
+      "id": 21,
+      "type": "direct",
+      "question": "What are the EDD requirements for non-face-to-face customer onboarding?",
+      "expected": [
+        45,
+        46
+      ],
+      "retrieved": [
+        45,
+        45,
+        27,
+        33
+      ],
+      "rank": 1
+    },
+    {
+      "id": 22,
+      "type": "direct",
+      "question": "What are money mules and what must banks do about them?",
+      "expected": [
+        60,
+        61
+      ],
+      "retrieved": [
+        60,
+        61,
+        60,
+        62
+      ],
+      "rank": 1
+    },
+    {
+      "id": 23,
+      "type": "direct",
+      "question": "Can a bank have a correspondent relationship with a shell bank?",
+      "expected": [
+        62
+      ],
+      "retrieved": [
+        62,
+        62,
+        62,
+        13
+      ],
+      "rank": 1
+    },
+    {
+      "id": 24,
+      "type": "direct",
+      "question": "When must Form 60 be obtained?",
+      "expected": [
+        68
+      ],
+      "retrieved": [
+        44,
+        44,
+        78,
+        36
+      ],
+      "rank": null
+    },
+    {
+      "id": 25,
+      "type": "direct",
+      "question": "What are the secrecy obligations of regulated entities about customer information?",
+      "expected": [
+        57
+      ],
+      "retrieved": [
+        57,
+        57,
+        12,
+        15
+      ],
+      "rank": 1
+    },
+    {
+      "id": 26,
+      "type": "direct",
+      "question": "Who is a walk-in customer?",
+      "expected": [
+        11
+      ],
+      "retrieved": [
+        11,
+        61,
+        14,
+        12
+      ],
+      "rank": 1
+    },
+    {
+      "id": 27,
+      "type": "direct",
+      "question": "What is a Unique Customer Identification Code (UCIC)?",
+      "expected": [
+        61,
+        19
+      ],
+      "retrieved": [
+        61,
+        61,
+        19,
+        72
+      ],
+      "rank": 1
+    },
+    {
+      "id": 28,
+      "type": "direct",
+      "question": "What is the role of the Designated Director?",
+      "expected": [
+        7,
+        17
+      ],
+      "retrieved": [
+        7,
+        17,
+        89,
+        89
+      ],
+      "rank": 1
+    },
+    {
+      "id": 29,
+      "type": "paraphrase",
+      "question": "My customer's Aadhaar address is old and they live in a rented flat. What proof of current address can they give?",
+      "expected": [
+        8,
+        9
+      ],
+      "retrieved": [
+        8,
+        9,
+        40,
+        42
+      ],
+      "rank": 1
+    },
+    {
+      "id": 30,
+      "type": "paraphrase",
+      "question": "Can a bank open an account in a fake name for a customer who wants privacy?",
+      "expected": [
+        19
+      ],
+      "retrieved": [
+        57,
+        19,
+        37,
+        60
+      ],
+      "rank": 2
+    }
+  ]
+}

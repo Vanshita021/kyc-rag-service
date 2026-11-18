@@ -1,0 +1,319 @@
+[
+  {
+    "id": 1,
+    "type": "direct",
+    "question": "What documents are accepted for KYC of an individual?",
+    "expected_pages": [
+      24,
+      25,
+      8
+    ],
+    "check_phrase": "proof of possession of Aadhaar",
+    "expected_fact": "Aadhaar / OVD / PAN or Form 60 etc. (para 16)"
+  },
+  {
+    "id": 2,
+    "type": "direct",
+    "question": "What is Customer Due Diligence (CDD)?",
+    "expected_pages": [
+      11
+    ],
+    "check_phrase": "identifying and verifying the customer and the beneficial owner",
+    "expected_fact": "Identifying and verifying customer and beneficial owner using reliable sources"
+  },
+  {
+    "id": 3,
+    "type": "direct",
+    "question": "Who is a Politically Exposed Person (PEP)?",
+    "expected_pages": [
+      46
+    ],
+    "check_phrase": "entrusted with prominent public functions by a foreign country",
+    "expected_fact": "Individuals entrusted with prominent public functions by a foreign country"
+  },
+  {
+    "id": 4,
+    "type": "direct",
+    "question": "What is the Video based Customer Identification Process (V-CIP)?",
+    "expected_pages": [
+      13
+    ],
+    "check_phrase": "alternate method of customer identification with facial recognition",
+    "expected_fact": "Alternate ID method: live audio-visual interaction with an authorised official"
+  },
+  {
+    "id": 5,
+    "type": "direct",
+    "question": "How often should KYC be updated for high, medium and low risk customers?",
+    "expected_pages": [
+      39
+    ],
+    "check_phrase": "once in every two years for high",
+    "expected_fact": "High: every 2 yrs, medium: every 8 yrs, low: every 10 yrs"
+  },
+  {
+    "id": 6,
+    "type": "direct",
+    "question": "When is a person a beneficial owner of a company? What is the ownership threshold?",
+    "expected_pages": [
+      5
+    ],
+    "check_phrase": "more than 10 percent of the shares",
+    "expected_fact": "Controlling ownership interest = more than 10% of shares/capital/profits"
+  },
+  {
+    "id": 7,
+    "type": "direct",
+    "question": "For how long must transaction records be preserved?",
+    "expected_pages": [
+      49
+    ],
+    "check_phrase": "at least five years from the date of transaction",
+    "expected_fact": "At least 5 years from the date of transaction"
+  },
+  {
+    "id": 8,
+    "type": "direct",
+    "question": "What is a Principal Officer?",
+    "expected_pages": [
+      9
+    ],
+    "check_phrase": "responsible for furnishing information as per rule 8",
+    "expected_fact": "Management-level officer nominated by the RE, responsible for furnishing information"
+  },
+  {
+    "id": 9,
+    "type": "direct",
+    "question": "Within how many days must KYC records be uploaded to CKYCR?",
+    "expected_pages": [
+      58
+    ],
+    "check_phrase": "upload onto CKYCR within 10 days",
+    "expected_fact": "Within 10 days of starting the account-based relationship"
+  },
+  {
+    "id": 10,
+    "type": "direct",
+    "question": "What are the limits on a small account?",
+    "expected_pages": [
+      32
+    ],
+    "check_phrase": "aggregate of all credits in a financial year does not exceed rupees one lakh",
+    "expected_fact": "Credits up to Rs 1 lakh/yr, withdrawals/transfers up to Rs 10,000/month, balance at any time up to Rs 50,000"
+  },
+  {
+    "id": 11,
+    "type": "direct",
+    "question": "How long can a small account stay operational?",
+    "expected_pages": [
+      33
+    ],
+    "check_phrase": "twelve months",
+    "expected_fact": "12 months, extendable by another 12 months if OVD application is evidenced"
+  },
+  {
+    "id": 12,
+    "type": "direct",
+    "question": "What is the Digital KYC process?",
+    "expected_pages": [
+      71
+    ],
+    "check_phrase": "Digital KYC Process",
+    "expected_fact": "Annex I: RE application at customer touch points, live photo etc."
+  },
+  {
+    "id": 13,
+    "type": "direct",
+    "question": "What information is needed for domestic wire transfers below fifty thousand rupees?",
+    "expected_pages": [
+      64
+    ],
+    "check_phrase": "domestic wire transfers below rupees fifty thousand",
+    "expected_fact": "Unique transaction reference number is sufficient in certain cases"
+  },
+  {
+    "id": 14,
+    "type": "direct",
+    "question": "How should customers be categorised by risk?",
+    "expected_pages": [
+      21
+    ],
+    "check_phrase": "categorised as low, medium and high-risk",
+    "expected_fact": "Low / medium / high, based on RE's risk assessment and parameters"
+  },
+  {
+    "id": 15,
+    "type": "direct",
+    "question": "What documents are needed to open an account for a trust?",
+    "expected_pages": [
+      36,
+      37
+    ],
+    "check_phrase": "list of trustees",
+    "expected_fact": "Registration certificate, trust deed, PAN or Form 60 of trust, paragraph 16 documents for attorney holders, names of beneficiaries/trustees/settlor/protector/authors, registered office address, list of trustees with their documents"
+  },
+  {
+    "id": 16,
+    "type": "direct",
+    "question": "What documents are needed for an unincorporated association or body of individuals?",
+    "expected_pages": [
+      37
+    ],
+    "check_phrase": "unincorporated association or a body of individuals",
+    "expected_fact": "Resolution of managing body, PAN/Form 60 etc. (para 33A)"
+  },
+  {
+    "id": 17,
+    "type": "direct",
+    "question": "What are the conditions for accounts opened using Aadhaar OTP based e-KYC in non-face-to-face mode?",
+    "expected_pages": [
+      26,
+      27
+    ],
+    "check_phrase": "aggregate balance of all the deposit accounts of the customer shall not exceed rupees one lakh",
+    "expected_fact": "Specific OTP consent; alerts only to Aadhaar-registered mobile; balance up to Rs 1 lakh (account ceases to operate above it until CDD); credits up to Rs 2 lakh/yr; term loans up to Rs 60,000/yr"
+  },
+  {
+    "id": 18,
+    "type": "direct",
+    "question": "What happens if OTP based e-KYC account is not fully verified within one year?",
+    "expected_pages": [
+      27
+    ],
+    "check_phrase": "shall not be allowed for more than one year",
+    "expected_fact": "Deposit accounts closed; no further debits in borrowal accounts"
+  },
+  {
+    "id": 19,
+    "type": "direct",
+    "question": "What should a Customer Acceptance Policy ensure?",
+    "expected_pages": [
+      19
+    ],
+    "check_phrase": "No account is opened in anonymous or fictitious",
+    "expected_fact": "No anonymous/benami accounts; no account if CDD cannot be applied, etc."
+  },
+  {
+    "id": 20,
+    "type": "direct",
+    "question": "Should the Customer Acceptance Policy deny banking services to disadvantaged people?",
+    "expected_pages": [
+      20
+    ],
+    "check_phrase": "shall not result in denial of banking",
+    "expected_fact": "No - must not result in denial of services to the general public"
+  },
+  {
+    "id": 21,
+    "type": "direct",
+    "question": "What are the EDD requirements for non-face-to-face customer onboarding?",
+    "expected_pages": [
+      45,
+      46
+    ],
+    "check_phrase": "Non-face-to-face onboarding",
+    "expected_fact": "V-CIP offered first; no alternate mobile numbers linked; current address verified by positive confirmation; PAN obtained and verified; first transaction a credit from an existing KYC-compliant account; customer treated as high risk"
+  },
+  {
+    "id": 22,
+    "type": "direct",
+    "question": "What are money mules and what must banks do about them?",
+    "expected_pages": [
+      60,
+      61
+    ],
+    "check_phrase": "Money Mules",
+    "expected_fact": "Accounts used to launder fraud proceeds; adhere to opening/monitoring rules, report STRs"
+  },
+  {
+    "id": 23,
+    "type": "direct",
+    "question": "Can a bank have a correspondent relationship with a shell bank?",
+    "expected_pages": [
+      62
+    ],
+    "check_phrase": "shall not be entered into or continued with a shell bank",
+    "expected_fact": "No"
+  },
+  {
+    "id": 24,
+    "type": "direct",
+    "question": "When must Form 60 be obtained?",
+    "expected_pages": [
+      68
+    ],
+    "check_phrase": "Form 60 shall be obtained from persons who do not have PAN",
+    "expected_fact": "From persons who do not have a PAN (or equivalent e-document)"
+  },
+  {
+    "id": 25,
+    "type": "direct",
+    "question": "What are the secrecy obligations of regulated entities about customer information?",
+    "expected_pages": [
+      57
+    ],
+    "check_phrase": "maintain secrecy regarding the customer information",
+    "expected_fact": "Customer info is confidential; not to be used for cross-selling without consent"
+  },
+  {
+    "id": 26,
+    "type": "direct",
+    "question": "Who is a walk-in customer?",
+    "expected_pages": [
+      11
+    ],
+    "check_phrase": "Walk-in Customer” means a person who does not have an account-based",
+    "expected_fact": "Person with no account-based relationship who transacts with the RE"
+  },
+  {
+    "id": 27,
+    "type": "direct",
+    "question": "What is a Unique Customer Identification Code (UCIC)?",
+    "expected_pages": [
+      61,
+      19
+    ],
+    "check_phrase": "Unique Customer Identification Code",
+    "expected_fact": "UCIC allotted to individual customers; CDD applied at UCIC level"
+  },
+  {
+    "id": 28,
+    "type": "direct",
+    "question": "What is the role of the Designated Director?",
+    "expected_pages": [
+      7,
+      17
+    ],
+    "check_phrase": "Designated Director",
+    "expected_fact": "Ensures overall compliance with PML Act obligations; nominated by the Board"
+  },
+  {
+    "id": 29,
+    "type": "paraphrase",
+    "question": "My customer's Aadhaar address is old and they live in a rented flat. What proof of current address can they give?",
+    "expected_pages": [
+      8,
+      9
+    ],
+    "check_phrase": "utility bill which is not more than two months old",
+    "expected_fact": "Deemed OVD: utility bill (max 2 months old), property tax receipt, PPO, etc."
+  },
+  {
+    "id": 30,
+    "type": "paraphrase",
+    "question": "Can a bank open an account in a fake name for a customer who wants privacy?",
+    "expected_pages": [
+      19
+    ],
+    "check_phrase": "No account is opened in anonymous or fictitious",
+    "expected_fact": "No - anonymous/fictitious/benami accounts are not allowed"
+  },
+  {
+    "id": 31,
+    "type": "out_of_scope",
+    "question": "What is the capital of France?",
+    "expected_pages": [],
+    "check_phrase": "",
+    "expected_fact": "Should answer: could not find this in the provided documents"
+  }
+]
